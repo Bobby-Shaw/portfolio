@@ -9,7 +9,7 @@ export default function Navbar() {
                     <span>Github</span>
                 </div>
             </a>
-            <a href="https://shawuk2006@gmail.com" target="_blank">
+            <a href="mailto:shawuk2006@gmail.com" target="_blank">
                 <div className="nav-item">
                     <svg className="nav-logo" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                         <path fill="currentColor" fill-rule="evenodd" d="M21.96 7.885L12 13.635l-9.96-5.75l9.335-5.39a1.24 1.24 0 0 1 1.25 0zM2 9.59l10 5.775L22 9.59v8.655a2.755 2.755 0 0 1-2.75 2.75H4.75A2.755 2.755 0 0 1 2 18.245z" clip-rule="evenodd"/>
