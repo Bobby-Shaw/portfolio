@@ -13,7 +13,7 @@ export default function Main() {
                 myself web development as well as enrolling into the University of Chester
                 as a Computer Science student.
             </p>
-            <section className="mt-24 mb-24 grid lg:grid-cols-3 sm:grid-cols-2  gap-10">
+            <section className="mt-24 mb-24 grid lg:grid-cols-3 sm:grid-cols-2 gap-5">
                 <ProjectCard url="https://github.com/Bobby-Shaw/Donkey-Kong" name="Donkey Kong Remake" language="Python" img="/dk-img.png" />
                 <ProjectCard url="https://github.com/Bobby-Shaw/todo" name="To-do App" language="JavaScript"  img="/placeholder.jpg"/>
                 <ProjectCard url="https://github.com/Bobby-Shaw/strava-stats" name="Strava Stats" language="JavaScript" img="placeholder.jpg" />
