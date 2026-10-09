@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard.jsx"
 export default function Main() {
     return (
         <main className="m-0 pr-10 pl-10">
-            <img className="w-48" src="/profile-pic.png" />
+            <img className="w-48" src="/profile-pic.png" alt="profile picture of bobby shaw" />
             <h1 className="font-bold text-6xl mt-5">Portfolio</h1>
             <h2 className="text-3xl font-bold text-neutral-500 m-3 mb-9">Bobby Shaw</h2>
             <p className="bio">
@@ -13,7 +13,7 @@ export default function Main() {
                 myself web development as well as enrolling into the University of Chester
                 as a Computer Science student.
             </p>
-            <section className="mt-24 mb-24 grid sm:grid-cols-2  gap-10">
+            <section className="mt-24 mb-24 grid lg:grid-cols-3 sm:grid-cols-2  gap-10">
                 <ProjectCard url="https://github.com/Bobby-Shaw/Donkey-Kong" name="Donkey Kong Remake" language="Python" />
                 <ProjectCard url="https://github.com/Bobby-Shaw/todo" name="To-do App" language="JavaScript"  />
                 <ProjectCard url="https://github.com/Bobby-Shaw/strava-stats" name="Strava Stats" language="JavaScript" />
