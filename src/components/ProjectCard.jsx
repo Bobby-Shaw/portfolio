@@ -6,7 +6,7 @@ export default function ProjectCard(props) {
             <div className="relative min-h-full min-w-full bg-white overflow-hidden border-2 border-gray-200 border-solid rounded-2xl shadow-3xl hover:scale-105 transition ease-out">
                 <div className={`w-full h-44 bg-cover bg-center bg-no-repeat `} style={{ backgroundImage: `url(${props.img})` }}>
                 </div>
-                <div className="p-2.5 min-w-86">
+                <div className="p-2.5 min-w-86 shadow-3xl">
                     <p className="font-bold text-md">{props.name}</p>
                     <p className="text-neutral-400 text-sm">{props.language}</p>
                 </div>

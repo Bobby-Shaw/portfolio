@@ -8,5 +8,25 @@
     "features": ["Basic Control Movement", "Leaderboard", "Increasing difficulty"],
     "techStack": ["Python", "Pygame", "SQL"],
     "reflection": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student."
+  },
+  {
+    "projectName": "Portfolio",
+    "description": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student. ",
+    "gitUrl": "https://github.com/Bobby-Shaw/portfolio",
+    "imgUrl": "/public/portfolio-img.png",
+    "mainLanguage": "React.js",
+    "features": ["Information about my projects", "Responsive Design", "Multi-page interaction with React Router"],
+    "techStack": ["React.js", "Vite", "Tailwindcss", "HTML", "CSS"],
+    "reflection": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student."
+  },
+  {
+    "projectName": "Strava Stats",
+    "description": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student. ",
+    "gitUrl": "https://github.com/Bobby-Shaw/strava-stats",
+    "imgUrl": "/public/strava-stats-img.png",
+    "mainLanguage": "Node.js",
+    "features": ["Basic Control Movement", "Leaderboard", "Increasing difficulty"],
+    "techStack": ["Node.js", "JavasScript", "HTML", "CSS"],
+    "reflection": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student."
   }
 ]
