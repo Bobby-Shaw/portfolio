@@ -10,15 +10,13 @@ export default function ProjectPage() {
 
     return (
         <>
-            <Navbar></Navbar>
             <section className="p-10 flex flex-col gap-12 max-w-3xl ml-auto mr-auto">
                 <Link to="/">
                     <div className="cursor-pointer flex flex-row items-center border-b border-b-transparent gap transition-colors duration-150 ease-in-out hover:border-b-black w-fit">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h10" />
                         </svg>
-                        <span className="">
-                        Go Back</span>
+                        <span className="">Go Back</span>
                    </div>
                 </Link>
                 <section className="flex flex-col gap-5">
