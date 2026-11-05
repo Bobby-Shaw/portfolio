@@ -1,10 +1,10 @@
 import ProjectCard from "./ProjectCard.jsx"
+import projects from "../projects.json"
 
 
 export default function Main() {
 
     return (
-
         <main className="m-0 pr-10 pl-10">
             <img className="w-48" src="/profile-pic.png" alt="profile picture of bobby shaw" />
             <h1 className="font-bold text-6xl mt-5">Portfolio</h1>
@@ -17,9 +17,14 @@ export default function Main() {
                 as a Computer Science student.
             </p>
             <section className="mt-24 mb-24 grid lg:grid-cols-3 sm:grid-cols-2 gap-5">
-                <ProjectCard url="https://github.com/Bobby-Shaw/Donkey-Kong" name="Donkey Kong Remake" language="Python" img="/dk-img.png" />
-                <ProjectCard url="https://github.com/Bobby-Shaw/todo" name="To-do App" language="JavaScript"  img="/placeholder.jpg"/>
-                <ProjectCard url="https://github.com/Bobby-Shaw/strava-stats" name="Strava Stats" language="JavaScript" img="placeholder.jpg" />
+                {projects.map((project, index) => (
+                    <ProjectCard
+                        id={index}
+                        name={project.projectName}
+                        language={project.mainLanguage}
+                        img={project.imgUrl}
+                    />
+                ))}
             </section>
         </main>
     )

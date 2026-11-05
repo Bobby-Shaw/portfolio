@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom"
+
 export default function ProjectCard(props) {
     return (
-        <a className="cursor-pointer" href={props.url} target="_blank">
+        <Link to={`/project/${props.id}`}>
             <div className="relative min-h-full min-w-full bg-white overflow-hidden border-2 border-gray-200 border-solid rounded-2xl shadow-3xl hover:scale-105 transition ease-out">
                 <div className={`w-full h-44 bg-cover bg-center bg-no-repeat `} style={{ backgroundImage: `url(${props.img})` }}>
                 </div>
@@ -9,6 +11,6 @@ export default function ProjectCard(props) {
                     <p className="text-neutral-400 text-sm">{props.language}</p>
                 </div>
             </div>
-        </a>
+        </Link>
     )
 }
