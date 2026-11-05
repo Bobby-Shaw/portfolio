@@ -1,0 +1,61 @@
+import Navbar from "./components/Navbar.jsx";
+import Tag from "./components/Tag.jsx"
+
+export default function ProjectPage() {
+    return (
+        <>
+            <Navbar></Navbar>
+            <section className="p-10 flex flex-col gap-12 max-w-3xl ml-auto mr-auto">
+                <a className="cursor-pointer flex flex-row items-center border-b border-b-transparent gap-2 hover:border-b-black w-fit">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+                    </svg>
+                    <span className="">
+                    Go Back</span></a>
+                <section className="flex flex-col gap-5">
+                    <h1 className="text-5xl">Donkey Kong Remake</h1>
+                    <p>
+                        Check out some of the things I have built throughout my coding journey.
+                        I started to get a taste of coding in secondary school where I would
+                        learn the basic of python scripting. I eventually moved onto to teaching
+                        myself web development as well as enrolling into the University of Chester
+                        as a Computer Science student.
+                    </p>
+                    <button className="text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                        </svg>
+                        <span>Github Repository</span></button>
+                </section>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
+                    <section>
+                        <h2>Project Features</h2>
+                        <ul>
+                            <li>Leaderboard</li>
+                            <li>Increasing Difficulty</li>
+                            <li>Basic Movement Controls</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Tech Stack</h2>
+                        <div className="flex flex-wrap gap-3">
+                            <Tag name="Python"/>
+                            <Tag name="Pygame" />
+                            <Tag name="SQL" />
+                        </div>
+                    </section>
+                </div>
+                <section>
+                    <h2>What did I learn?</h2>
+                    <p>
+                        Check out some of the things I have built throughout my coding journey.
+                        I started to get a taste of coding in secondary school where I would
+                        learn the basic of python scripting. I eventually moved onto to teaching
+                        myself web development as well as enrolling into the University of Chester
+                        as a Computer Science student.
+                    </p>
+                </section>
+            </section>
+        </>
+    )
+}

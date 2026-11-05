@@ -1,7 +1,10 @@
 import ProjectCard from "./ProjectCard.jsx"
 
+
 export default function Main() {
+
     return (
+
         <main className="m-0 pr-10 pl-10">
             <img className="w-48" src="/profile-pic.png" alt="profile picture of bobby shaw" />
             <h1 className="font-bold text-6xl mt-5">Portfolio</h1>
