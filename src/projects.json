@@ -1,19 +1,19 @@
 [
   {
     "projectName": "Donkey Kong Remake",
-    "description": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student. ",
+    "description": "I built this Donkey Kong remake as part of my project I completed for my A-level's in Computer Science. We were tasked with developing and documenting a 2D video-game in Python using a 2D-graphics known as Pygame. For my project I decided to build a remake of Donkey Kong as I was interested in 8-bit video games at the time and thought it would be an achievable goal. The project spanned over the course of 2 years where I had to plan, design, develop, test and evaluate my project.",
     "gitUrl": "https://github.com/Bobby-Shaw/Donkey-Kong",
-    "imgUrl": "/public/dk-img.png",
+    "imgUrl": "/dk-img.png",
     "mainLanguage": "Python",
-    "features": ["Basic Control Movement", "Leaderboard", "Increasing difficulty"],
+    "features": ["Donkey Kong inspired gameplay", "Music and Sounds that can be adjusted", "Settings menu",  "Leaderboard system that uses SQL for retrieving local results", " Hand crafted pixel art"],
     "techStack": ["Python", "Pygame", "SQL"],
-    "reflection": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student."
+    "reflection": "Over the course of my project timeline, I tacked with hundreds and nearly thousands of lines of code manually. It felt nearly impossible to finish halfway through. "
   },
   {
     "projectName": "Portfolio",
     "description": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student. ",
     "gitUrl": "https://github.com/Bobby-Shaw/portfolio",
-    "imgUrl": "/public/portfolio-img.png",
+    "imgUrl": "/portfolio-img.png",
     "mainLanguage": "React.js",
     "features": ["Information about my projects", "Responsive Design", "Multi-page interaction with React Router"],
     "techStack": ["React.js", "Vite", "Tailwindcss", "HTML", "CSS"],
@@ -23,9 +23,9 @@
     "projectName": "Strava Stats",
     "description": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student. ",
     "gitUrl": "https://github.com/Bobby-Shaw/strava-stats",
-    "imgUrl": "/public/strava-stats-img.png",
+    "imgUrl": "/strava-stats-img.png",
     "mainLanguage": "Node.js",
-    "features": ["Basic Control Movement", "Leaderboard", "Increasing difficulty"],
+    "features": ["Strava OAuth Login", "Server Side Token Handling", "Simple Web UI", "Use of Strava REST API to retrieve personal Strava data", "Filtering the number of runs returned",  "Overview section to calculate the average of each shown metric"],
     "techStack": ["Node.js", "JavasScript", "HTML", "CSS"],
     "reflection": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student."
   }
