@@ -11,22 +11,22 @@
   },
   {
     "projectName": "Portfolio",
-    "description": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student. ",
+    "description": "This is a React-based project where I aim to show off some of the things that I have created over the course of my coding journey. This allows any user to see projects that I've made.",
     "gitUrl": "https://github.com/Bobby-Shaw/portfolio",
     "imgUrl": "/portfolio-img.png",
     "mainLanguage": "React.js",
     "features": ["Information about my projects", "Responsive Design", "Multi-page interaction with React Router"],
     "techStack": ["React.js", "Vite", "Tailwindcss", "HTML", "CSS"],
-    "reflection": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student."
+    "reflection": "This has made me think about what I want people to see from me as someone who aspires to be a software engineer. I've had to think about how I present myself towards other people."
   },
   {
     "projectName": "Strava Stats",
-    "description": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student. ",
+    "description": "This is a Node.js project that allows me to pull my own personal Strava data using Strava's REST API and display it on a web interface. This was meant a small learning project as I challenged myself to learn Node.js and see if I could gather my run data using Strava's API and display each run activity.",
     "gitUrl": "https://github.com/Bobby-Shaw/strava-stats",
     "imgUrl": "/strava-stats-img.png",
     "mainLanguage": "Node.js",
     "features": ["Strava OAuth Login", "Server Side Token Handling", "Simple Web UI", "Use of Strava REST API to retrieve personal Strava data", "Filtering the number of runs returned",  "Overview section to calculate the average of each shown metric"],
     "techStack": ["Node.js", "JavasScript", "HTML", "CSS"],
-    "reflection": "Check out some of the things I have built throughout my coding journey. I started to get a taste of coding in secondary school where I would learn the basic of python scripting. I eventually moved onto to teaching myself web development as well as enrolling into the University of Chester as a Computer Science student."
+    "reflection": "I learned how to build both the front-end and back-end for my application using Node.js where this was first project using this framework. The main challenge I faced was being able to understand how sessions work between the client and the server as well as the implementation. I chose Node.js because it seemed like a very popular framework and I was very interested in seeing my frontend communicate the backend"
   }
 ]

@@ -3,7 +3,6 @@ import Tag from "./components/Tag.jsx"
 import NotFound from "./components/NotFound.jsx";
 import projects from "./projects.json"
 
-
 export default function ProjectPage() {
     const { id } = useParams();
     const object = projects[Number(id)]
@@ -42,7 +41,7 @@ export default function ProjectPage() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
                         <section>
                             <h2>Project Features</h2>
-                            <ul className="flex flex-col gap-1.5">
+                            <ul className="flex flex-col gap-1.5 *:ml-3.25">
                                 {object.features.map(feature => <li>{feature}</li>)}
                             </ul>
                         </section>
